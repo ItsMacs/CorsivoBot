@@ -11,7 +11,6 @@ bot.on('message', (msg) => {
   var text = '';
   for(var i = 0; i < msg.text.length; i++){
      var c = msg.text.charAt(i);
-     var ae = true;
      //if no more, ae yes
      if(i + 1 >= msg.text.length){
         text += goodCorsivo(c, '');
